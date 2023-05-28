@@ -11,6 +11,6 @@ app.get('/', (req , res) => {
 })
 
 app.get('/test', (req , res) => {
-    res.render('index')
+    res.send('test')
 })
 module.exports = app
