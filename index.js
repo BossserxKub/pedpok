@@ -11,6 +11,10 @@ app.get('/', (req , res) => {
 })
 
 app.get('/test', (req , res) => {
-    res.send('test page')
+    const data = {
+        name : 'boss',
+        age : '20'
+    }
+    res.send(data)
 })
 module.exports = app
