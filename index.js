@@ -10,4 +10,7 @@ app.get('/', (req , res) => {
     res.send('This is my API running')
 })
 
+app.get('/test', (req , res) => {
+    res.render('index')
+})
 module.exports = app
