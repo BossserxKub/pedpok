@@ -7,7 +7,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req , res) => {
-    res.render('index')
+    res.send('This is my API running')
 })
 
 module.exports = app
