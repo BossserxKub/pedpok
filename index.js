@@ -10,11 +10,11 @@ app.get('/', (req , res) => {
     res.send('This is my API running')
 })
 
-app.get('/test', (req , res) => {
-    const data = {
-        name : 'boss',
-        age : '20'
+app.get('/price', (req , res) => {
+    const price = {
+        rank : 'Immortal',
+        Price : '559'
     }
-    res.send(data)
+    res.send(price)
 })
 module.exports = app
